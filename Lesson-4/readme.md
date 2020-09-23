@@ -12,15 +12,17 @@ collector.on('collect', m => {
 
 collector.on('end', collected => {
     console.log(`Collected ${collected.size} items`);
-});```
+});
+```
 This message collector will collect messages sent in 15 seconds
 The collect event, ```js
 collector.on('collect', m => {
-});```
+});
+```
 
 Will be triggered every time a message is sent in those 15 seconds
-The end event, 
-```js
+The end event, ```js
 collector.on('end', collected => {
-});```
+});
+```
  Will Be triggered after those 15 seconds. It will output a collection
