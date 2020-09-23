@@ -22,7 +22,8 @@ collector.on('collect', m => {
 ```
 
 Will be triggered every time a message is sent in those 15 seconds
-The end event, ```js
+The end event, 
+```js
 collector.on('end', collected => {
 });
 ```
