@@ -15,7 +15,8 @@ collector.on('end', collected => {
 });
 ```
 This message collector will collect messages sent in 15 seconds
-The collect event, ```js
+The collect event, 
+```js
 collector.on('collect', m => {
 });
 ```
@@ -25,4 +26,5 @@ The end event, ```js
 collector.on('end', collected => {
 });
 ```
+
  Will Be triggered after those 15 seconds. It will output a collection
